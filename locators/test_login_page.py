@@ -14,4 +14,7 @@ class LoginPageLocator:
     phone_input = (By.CSS_SELECTOR, '[id="loginPhoneInput"]')
     message_not_input = (By.XPATH, '/html/body/div[11]/div/div/div[2]/div/div/form/div[1]/div/label')
     open_profile_autorization = (By.XPATH, '/html/body/div[2]/div[3]/div/div[1]/div/div[3]/div[1]/ul/li[1]/a[1]')
-
+    button_menu = (By.CSS_SELECTOR, '[id="header-profile-menu-opener"]')
+    button_logaut = (By.CSS_SELECTOR, '[class="item-logout"]')
+    popup_logaut = (By.XPATH, '//*[@id="logoutConfirmPopup"]/div/div')
+    button_popup_logaut = (By.CSS_SELECTOR, '[href="/profile/logout"]')
