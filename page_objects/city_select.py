@@ -1,6 +1,6 @@
 import time
 from selenium import webdriver
-from page_objects.test_base_page import BasePage
+from page_objects.base_page import BasePage
 from locators.test_city_change import CityChange
 
 

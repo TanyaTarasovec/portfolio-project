@@ -1,4 +1,4 @@
-from page_objects.test_language_select import languagePage
+from page_objects.language_select import languagePage
 import allure
 
 

@@ -1,4 +1,4 @@
-from page_objects.test_authorization import TestProfile
+from page_objects.authorization import TestProfile
 import allure
 
 

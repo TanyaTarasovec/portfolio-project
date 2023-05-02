@@ -1,7 +1,7 @@
 
 from selenium import webdriver
 from selenium.webdriver import Keys
-from page_objects.test_base_page import BasePage
+from page_objects.base_page import BasePage
 from locators.test_search import Search
 
 

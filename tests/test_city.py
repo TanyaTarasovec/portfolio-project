@@ -1,4 +1,4 @@
-from page_objects.test_city_select import CitySelect
+from page_objects.city_select import CitySelect
 import allure
 
 

@@ -1,4 +1,4 @@
-from page_objects.test_search_field import SearchField
+from page_objects.search_field import SearchField
 import allure
 
 

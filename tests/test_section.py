@@ -1,4 +1,4 @@
-from page_objects.test_section_open import SectionPage
+from page_objects.section_open import SectionPage
 import allure
 
 
