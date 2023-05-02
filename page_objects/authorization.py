@@ -5,23 +5,23 @@ from page_objects.base_page import BasePage
 from locators.test_login_page import LoginPageLocator
 
 
-class TestProfile(BasePage):
+class Profile(BasePage):
     def __init__(self, driver: webdriver.Chrome):
         super().__init__(driver)
         self.url = 'https://www.slivki.by/'
 
 
-    def test_check_login_for_pending(self):
+    def check_login_for_pending(self):
         assert self.find_element(LoginPageLocator.button_login).is_displayed()
 
 
-    def test_check_open_email(self):
+    def check_open_email(self):
         assert self.find_element(LoginPageLocator.login_by_phone).is_displayed()
 
-    def test_check_login_field(self):
+    def check_login_field(self):
         assert self.find_element(LoginPageLocator.email_input).is_displayed()
 
-    def test_check_password_field(self):
+    def check_password_field(self):
         assert self.find_element(LoginPageLocator.password_input).is_displayed()
 
     def check_checkbox(self):
